@@ -2,7 +2,9 @@
 int main()
 {
 int i,sum=0,n;
-for(i=1;i<=n;i++)
+  printf("enter n value");
+  scanf("%d",&n);
+  for(i=1;i<=n;i++)
 {
 sum=sum+n;}
 printf("sum of natural num%d",sum);
